@@ -57,11 +57,12 @@ public class PlayerController : MonoBehaviour
 
         if (mousePos.x < playerScreenPoint.x)
         {
-            mySpriteRender.flipX = true;
+            mySpriteRender.flipX = false;
+            
         }
         else
         {
-            mySpriteRender.flipX = false;
+            mySpriteRender.flipX = true;
         }
     }
 }
