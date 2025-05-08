@@ -10,5 +10,4 @@ public static class PlayerData
     public static int level;
     public static int count;
 
-
 }
